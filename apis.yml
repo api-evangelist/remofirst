@@ -1,8 +1,14 @@
 aid: remofirst
 name: Remofirst
-description: 'Remofirst is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Remofirst is a global employment platform and Employer of Record (EOR)
+  that helps companies hire, onboard, pay, and manage full-time employees and contractors
+  across 185+ countries without establishing local legal entities. Its services span
+  EOR employment, international contractor management, global multi-currency payroll,
+  health insurance (RemoHealth), visa and work-permit support, background checks, and
+  workforce administration. Remofirst is backed by QED Investors and positions itself
+  as a lower-cost alternative in the global HR and payroll category. It publishes no
+  public developer API today; integrations are delivered through partner connections
+  (BambooHR, ADP Workforce Now, GoCardless).'
 url: https://raw.githubusercontent.com/api-evangelist/remofirst/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Employer of Record
+- Global Payroll
+- HR
+- Human Resources
+- Contractors
+- Compliance
+image: https://www.remofirst.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.remofirst.com/
+- type: Pricing
+  url: https://www.remofirst.com/price
+- type: SignUp
+  url: https://www.remofirst.com/request-a-demo
+- type: Login
+  url: https://auth.remofirst.com/api/auth/login
+- type: Blog
+  url: https://www.remofirst.com/blog
+- type: TermsOfService
+  url: https://www.remofirst.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.remofirst.com/legal/privacy-policy
+- type: StatusPage
+  url: https://status.remofirst.com
+- type: Integrations
+  url: https://www.remofirst.com/integrations
+- type: Compliance
+  url: https://www.remofirst.com/compliance
+- type: TrustCenter
+  url: security/remofirst-trust-center.yml
+- type: DomainSecurity
+  url: security/remofirst-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

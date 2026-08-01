@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.remofirst.com/compliance
+url: https://www.remofirst.com/compliance
+certifications:
+- ISO 27001
+- SOC 2 Type II
+- GDPR
+evidence:
+- source: https://www.remofirst.com/compliance
+  keywords:
+  - iso 27001
+  - soc 2 type ii
+  - gdpr
